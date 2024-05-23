@@ -5,7 +5,7 @@ This project is part of the NTU Applied Deep Learning course (Fall 2023) and foc
 1.  **Paragraph Selection**: Identifying the relevant paragraph that contains the answer to the question.
 2.  **Span Selection**: Determining the exact start and end positions of the answer within the selected paragraph.
 
-![Task Description](./Task%20Description.png)
+![Task Description](./images/Task%20Description.png)
 
 ## Key Components
 -   **Pre-trained Language Models**: The project utilizes pre-trained language models such as BERT to facilitate both paragraph and span selection. These models are fine-tuned on the provided dataset to improve their performance on the specific task of extractive QA.
@@ -138,4 +138,18 @@ mv ./qa/chinese-roberta-wwm-ext/test_submission.csv ./
 * `test_file`: Path to `mc_result.json`.
 * `output_path`: The output path where the result will be stored.
 * `mv`: move `test_submission.csv` to root directory.
----
+
+## Final Report
+The final report of this project provides a comprehensive overview of the project, including the following sections:
+
+1. **Data processing**
+
+2. **Modeling with BERTs and their varian**
+
+3. **Curves**
+
+4. **Pre-trained vs Not Pre-trained**
+
+For more detailed information, please refer to the [full report](./report.pdf).
+
+![EM plot](./images/Exact%20Match%20Plot.png)
