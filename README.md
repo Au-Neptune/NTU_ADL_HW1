@@ -1,9 +1,11 @@
 # ADL HW1
 
 ## Project Description
-This project is part of the NTU Advanced Deep Learning course (Fall 2023) and focuses on Chinese Extractive Question Answering (QA). The objective is to develop a model that can accurately determine the span of text within a given paragraph that answers a specific question. The project involves two main tasks:
+This project is part of the NTU Applied Deep Learning course (Fall 2023) and focuses on Chinese Extractive Question Answering (QA). The objective is to develop a model that can accurately determine the span of text within a given paragraph that answers a specific question. The project involves two main tasks:
 1.  **Paragraph Selection**: Identifying the relevant paragraph that contains the answer to the question.
 2.  **Span Selection**: Determining the exact start and end positions of the answer within the selected paragraph.
+
+![Task Description](./Task%20Description.png)
 
 ## Key Components
 -   **Pre-trained Language Models**: The project utilizes pre-trained language models such as BERT to facilitate both paragraph and span selection. These models are fine-tuned on the provided dataset to improve their performance on the specific task of extractive QA.
